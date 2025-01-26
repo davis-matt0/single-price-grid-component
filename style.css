@@ -11,6 +11,102 @@ html {
 body {
   margin: 0;
   font-family: "Karla", sans-serif;
+  background-color: hsl(204, 43%, 93%);
+}
+
+.card {
+  width: 90%;
+  margin: 2em auto;
+  box-shadow: 3px 3px 10px #979797;
+}
+
+section {
+  padding: 1.5em;
+}
+
+.intro-section {
+  background-color: white;
+}
+
+.intro-heading {
+  color: hsl(179, 62%, 43%);
+  margin: 0.5em 0 1em 0;
+}
+
+.intro-subheading {
+  color: hsl(71, 73%, 54%);
+  font-weight: 700;
+  font-size: 1.125rem;
+}
+
+.intro-body {
+  color: hsl(218, 22%, 67%);
+  line-height: 1.7;
+}
+
+.price-section {
+  background-color: hsl(179, 62%, 43%);
+}
+
+.price-heading {
+  margin: 0;
+}
+
+.price-container {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.price-amount {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin: 0.5em 0;
+}
+
+.price-frequency {
+  /* font-weight: 200; */
+  opacity: 60%;
+}
+
+.price-description {
+  margin: 0 0 1.5em 0;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.125rem;
+  color: white;
+  background-color: hsl(71, 73%, 54%);
+  width: 100%;
+  margin: 1em auto 0.5em;
+  padding: 1em 0;
+  text-align: center;
+  border-radius: 0.4em;
+  box-shadow: 1px 1px 10px rgba(102, 102, 102, 0.74);
+}
+
+.price-section,
+.about-section {
+  color: hsl(204, 43%, 93%);
+}
+
+.about-section {
+  background-color: #4bbfbc;
+}
+
+.about-heading {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+ul {
+  list-style: none;
+  opacity: 60%;
+  padding: 0;
+  margin: 1.5em 0 0 0;
+  line-height: 1.5;
 }
 
 .attribution {
